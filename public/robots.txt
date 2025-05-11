@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wardidea.com/sitemap.xml
+
+# Disallow admin and private routes
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+
+# Allow all other routes
+Allow: /services/
+Allow: /success-stories/
+Allow: /contact/
+Allow: /about/ 
