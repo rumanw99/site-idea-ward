@@ -8,6 +8,7 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-primary-50 to-white">
+<<<<<<< HEAD
       <style jsx global>{`
         @keyframes wiggle {
           0%, 100% { transform: translateX(0) scale(1.1); }
@@ -23,6 +24,8 @@ export default function Home() {
           font-size: 2rem;
         }
       `}</style>
+=======
+>>>>>>> ceb2da3 (fix icons)
       {/* بداية الصفحة مباشرة بقسم الهيرو */}
       {/* Hero Section */}
       <section className="relative flex items-center min-h-[80vh] md:min-h-[90vh] overflow-hidden" style={{backgroundImage: 'url(https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1500&q=80)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
@@ -52,6 +55,7 @@ export default function Home() {
             <Link href="/services" className="bg-white text-primary-700 border border-primary-200 px-8 py-3 rounded-lg text-lg font-bold hover:bg-primary-50 transition-all duration-200">
               خدماتنا
             </Link>
+<<<<<<< HEAD
             <Link href="/about#founder" className="bg-primary-100 text-primary-700 border border-primary-200 px-8 py-3 rounded-lg text-lg font-bold hover:bg-primary-200 transition-all duration-200 flex items-center gap-3 justify-center shadow-md hover:shadow-xl">
               <span className="attention-arrow">
                 <svg width="32" height="32" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -59,6 +63,15 @@ export default function Home() {
                 </svg>
               </span>
               تعرف على المؤسس
+=======
+            <Link href="/about#founder" className="bg-primary-100 text-primary-700 border border-primary-200 px-8 py-3 rounded-lg text-lg font-bold flex items-center justify-center gap-2 hover:bg-primary-200 transition-all duration-200 relative overflow-hidden">
+              تعرف على المؤسس
+              <span className="inline-block animate-pulse-arrow">
+                <svg className="w-6 h-6 text-primary-500 ml-1" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                </svg>
+              </span>
+>>>>>>> ceb2da3 (fix icons)
             </Link>
           </div>
           {/* إحصائيات مختصرة */}
@@ -110,12 +123,18 @@ export default function Home() {
       {/* Services Section */}
       <section className="section bg-white animate-fade-in scroll-reveal slide-in-right" style={{animationDelay: '0.2s'}}>
         <div className="container">
+<<<<<<< HEAD
           <div className="text-center mb-12">
             <h2 className="title">خدماتنا</h2>
+=======
+          <div className="text-center mb-8">
+            <h2 className="title mb-2 text-3xl md:text-4xl font-extrabold text-primary-700">خدماتنا</h2>
+>>>>>>> ceb2da3 (fix icons)
             <p className="text-lead text-gray-600 max-w-2xl mx-auto">
               نقدم مجموعة متكاملة من الخدمات الاحترافية لمساعدة الشركات والأفراد في تحقيق أهدافهم وتطوير أعمالهم
             </p>
           </div>
+<<<<<<< HEAD
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-10 justify-center">
             {/* Service 1 */}
             <div className="card flex flex-col items-center text-center p-6 hover:shadow-xl transition-all duration-300 animate-fade-in" style={{animationDelay: '0.1s'}}>
@@ -322,6 +341,105 @@ export default function Home() {
                 <li className="flex items-center"><svg className="w-4 h-4 text-primary-500 ml-2" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/></svg>تحسين شامل لحسابك على LinkedIn</li>
               </ul>
               <Link href="/contact" className="text-primary-600 hover:text-primary-700 font-medium mt-auto">احجز جلستك الآن</Link>
+=======
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+            {/* خدمة المبيعات */}
+            <div className="card flex flex-col items-center text-center p-6 hover:shadow-xl transition-all duration-300">
+              <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mb-4 shadow-lg">
+                <svg className="w-8 h-8 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <h3 className="text-lg font-bold mb-2 text-primary-700">خدمات المبيعات</h3>
+              <p className="text-gray-600 text-sm mb-3">حلول واستشارات مبيعات لزيادة مبيعاتك وتطوير فريقك وتحقيق نمو مستدام.</p>
+              <ul className="text-sm text-gray-500 text-right w-full space-y-1 mb-3">
+                <li className="flex items-center"><span className="text-primary-500 ml-2">✔</span> بيع ذكي وتطوير مهني</li>
+                <li className="flex items-center"><span className="text-primary-500 ml-2">✔</span> تطوير استراتيجيات المبيعات</li>
+                <li className="flex items-center"><span className="text-primary-500 ml-2">✔</span> تدريب فرق المبيعات</li>
+              </ul>
+              <Link href="/services#sales" className="text-primary-600 hover:text-primary-700 font-medium mt-auto">اطلب الخدمة</Link>
+            </div>
+            {/* تصفية السير الذاتية */}
+            <div className="card flex flex-col items-center text-center p-6 hover:shadow-xl transition-all duration-300">
+              <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mb-4 shadow-lg">
+                <svg className="w-8 h-8 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                </svg>
+              </div>
+              <h3 className="text-lg font-bold mb-2 text-primary-700">تصفية السير الذاتية</h3>
+              <p className="text-gray-600 text-sm mb-3">فرز احترافي للسير الذاتية لاختيار أفضل الكفاءات للوظائف المتاحة.</p>
+              <ul className="text-sm text-gray-500 text-right w-full space-y-1 mb-3">
+                <li className="flex items-center"><span className="text-primary-500 ml-2">✔</span> تحليل السير الذاتية</li>
+                <li className="flex items-center"><span className="text-primary-500 ml-2">✔</span> تقييم الخبرات</li>
+                <li className="flex items-center"><span className="text-primary-500 ml-2">✔</span> مطابقة المتطلبات</li>
+              </ul>
+              <Link href="/services#cv-screening" className="text-primary-600 hover:text-primary-700 font-medium mt-auto">اقرأ المزيد</Link>
+            </div>
+            {/* خدمات التوظيف */}
+            <div className="card flex flex-col items-center text-center p-6 hover:shadow-xl transition-all duration-300">
+              <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mb-4 shadow-lg">
+                <svg className="w-8 h-8 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                </svg>
+              </div>
+              <h3 className="text-lg font-bold mb-2 text-primary-700">خدمات التوظيف</h3>
+              <p className="text-gray-600 text-sm mb-3">حلول توظيف شاملة للشركات والأفراد مع ضمان جودة المرشحين وسرعة الإنجاز.</p>
+              <ul className="text-sm text-gray-500 text-right w-full space-y-1 mb-3">
+                <li className="flex items-center"><span className="text-primary-500 ml-2">✔</span> البحث عن الكفاءات</li>
+                <li className="flex items-center"><span className="text-primary-500 ml-2">✔</span> المقابلات الأولية</li>
+                <li className="flex items-center"><span className="text-primary-500 ml-2">✔</span> تقييم المهارات</li>
+              </ul>
+              <Link href="/services#recruitment" className="text-primary-600 hover:text-primary-700 font-medium mt-auto">اقرأ المزيد</Link>
+            </div>
+            {/* جلسات فردية وتطوير مهني */}
+            <div className="card flex flex-col items-center text-center p-6 hover:shadow-xl transition-all duration-300">
+              <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mb-4 shadow-lg">
+                <svg className="w-8 h-8 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 20h9" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m0 0H3" />
+                </svg>
+              </div>
+              <h3 className="text-lg font-bold mb-2 text-primary-700">جلسات فردية وتطوير مهني</h3>
+              <p className="text-gray-600 text-sm mb-3">احصل على دعم شخصي واستشارات لتطوير مسارك الوظيفي وتحقيق النجاح في التوظيف.</p>
+              <ul className="text-sm text-gray-500 text-right w-full space-y-1 mb-3">
+                <li className="flex items-center"><span className="text-primary-500 ml-2">✔</span> استشارات مهنية فردية</li>
+                <li className="flex items-center"><span className="text-primary-500 ml-2">✔</span> تطوير السيرة الذاتية</li>
+                <li className="flex items-center"><span className="text-primary-500 ml-2">✔</span> تجهيز للمقابلات</li>
+              </ul>
+              <Link href="/services#coaching" className="text-primary-600 hover:text-primary-700 font-medium mt-auto">احجز جلستك الآن</Link>
+            </div>
+            {/* بيع الحلول والمنتجات الجاهزة */}
+            <div className="card flex flex-col items-center text-center p-6 hover:shadow-xl transition-all duration-300">
+              <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mb-4 shadow-lg">
+                <svg className="w-8 h-8 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 01-8 0M12 3v4m0 0a4 4 0 01-4 4H4a4 4 0 01-4-4V7a4 4 0 014-4h4a4 4 0 014 4z" />
+                </svg>
+              </div>
+              <h3 className="text-lg font-bold mb-2 text-primary-700">بيع الحلول والمنتجات الجاهزة</h3>
+              <p className="text-gray-600 text-sm mb-3">نوفر لك حلولاً ومنتجات جاهزة تلبي احتياجات شركتك وتساعدك على تطوير أعمالك بسرعة وكفاءة.</p>
+              <ul className="text-sm text-gray-500 text-right w-full space-y-1 mb-3">
+                <li className="flex items-center"><span className="text-primary-500 ml-2">✔</span> منتجات جاهزة للاستخدام</li>
+                <li className="flex items-center"><span className="text-primary-500 ml-2">✔</span> حلول برمجية متكاملة</li>
+                <li className="flex items-center"><span className="text-primary-500 ml-2">✔</span> دعم فني مستمر</li>
+              </ul>
+              <Link href="/services#products" className="text-primary-600 hover:text-primary-700 font-medium mt-auto">اطلب الخدمة</Link>
+            </div>
+            {/* الاستشارات */}
+            <div className="card flex flex-col items-center text-center p-6 hover:shadow-xl transition-all duration-300">
+              <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mb-4 shadow-lg">
+                <svg className="w-8 h-8 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                </svg>
+              </div>
+              <h3 className="text-lg font-bold mb-2 text-primary-700">الاستشارات</h3>
+              <p className="text-gray-600 text-sm mb-3">استشارات متخصصة في الموارد البشرية والمبيعات وتطوير الأعمال.</p>
+              <ul className="text-sm text-gray-500 text-right w-full space-y-1 mb-3">
+                <li className="flex items-center"><span className="text-primary-500 ml-2">✔</span> استشارات الموارد البشرية</li>
+                <li className="flex items-center"><span className="text-primary-500 ml-2">✔</span> تطوير الأعمال</li>
+                <li className="flex items-center"><span className="text-primary-500 ml-2">✔</span> تحسين الأداء</li>
+              </ul>
+              <Link href="/services#consulting" className="text-primary-600 hover:text-primary-700 font-medium mt-auto">اقرأ المزيد</Link>
+>>>>>>> ceb2da3 (fix icons)
             </div>
           </div>
         </div>
@@ -378,6 +496,7 @@ export default function Home() {
       {/* Partners Section */}
       <section className="section bg-white animate-fade-in scroll-reveal slide-in-right" style={{animationDelay: '0.35s'}}>
         <div className="container text-center">
+<<<<<<< HEAD
           <h2 className="title mb-8 text-3xl md:text-4xl text-primary-700">شركاؤنا في النجاح</h2>
           <p className="text-lead mb-10 text-gray-600">نفخر بالتعاون مع نخبة من الشركات المحلية والعالمية</p>
           <div className="grid grid-cols-3 gap-10 justify-center items-center mx-auto max-w-3xl">
@@ -401,6 +520,36 @@ export default function Home() {
             <div className="flex flex-col items-center">
               <Image src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="شركة سبيندو لبناء الأنظمة المحاسبية" width={80} height={80} className="mb-2 object-contain bg-white rounded-full" />
               <span className="text-primary-700 font-bold text-base">شركة سبيندو لبناء الأنظمة المحاسبية</span>
+=======
+          <h2 className="title mb-4 text-3xl md:text-4xl text-primary-700">شركاؤنا في النجاح</h2>
+          <p className="text-lead mb-10 text-gray-600">نفخر بالتعاون مع نخبة من الشركات المحلية والعالمية</p>
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-1 lg:grid-cols-1 w-full max-w-4xl mx-auto">
+            <div className="flex flex-wrap justify-center gap-x-16 gap-y-8">
+              {/* الصف الأول: 3 شركاء */}
+              <div className="flex flex-col items-center w-40">
+                <img src="/images/illustrations/executive.svg" alt="Sohu" className="w-20 h-20 mb-2 rounded-full bg-primary-50 shadow" />
+                <span className="font-bold text-primary-700 text-base">Sohu</span>
+              </div>
+              <div className="flex flex-col items-center w-40">
+                <img src="/images/illustrations/executive.svg" alt="Voila Digital" className="w-20 h-20 mb-2 rounded-full bg-primary-50 shadow" />
+                <span className="font-bold text-primary-700 text-base">Voila Digital</span>
+              </div>
+              <div className="flex flex-col items-center w-40">
+                <img src="/images/illustrations/executive.svg" alt="SEMA Brands" className="w-20 h-20 mb-2 rounded-full bg-primary-50 shadow" />
+                <span className="font-bold text-primary-700 text-base">SEMA Brands</span>
+              </div>
+            </div>
+            <div className="flex flex-wrap justify-center gap-x-16 gap-y-8 mt-6">
+              {/* الصف الثاني: 2 شركاء */}
+              <div className="flex flex-col items-center w-40">
+                <img src="/images/illustrations/executive.svg" alt="شركة سيندو لبناء الأنظمة المحاسبية" className="w-20 h-20 mb-2 rounded-full bg-primary-50 shadow" />
+                <span className="font-bold text-primary-700 text-base">شركة سيندو لبناء الأنظمة المحاسبية</span>
+              </div>
+              <div className="flex flex-col items-center w-40">
+                <img src="/images/illustrations/executive.svg" alt="شركة الأخوان للمحاسبة" className="w-20 h-20 mb-2 rounded-full bg-primary-50 shadow" />
+                <span className="font-bold text-primary-700 text-base">شركة الأخوان للمحاسبة</span>
+              </div>
+>>>>>>> ceb2da3 (fix icons)
             </div>
           </div>
         </div>
@@ -509,6 +658,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
               <div className="card p-6 hover:shadow-lg transition-all duration-300">
+<<<<<<< HEAD
                 <div className="flex items-start">
                   <div className="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center mr-4 md:mr-6 ml-2 md:ml-4">
                     <svg className="w-6 h-6 text-primary-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -549,6 +699,42 @@ export default function Home() {
                     <p className="text-gray-600">الجمعة - السبت: مغلق</p>
                   </div>
                 </div>
+=======
+                <div className="flex items-center justify-between mb-2">
+                  <h3 className="text-lg font-bold text-primary-700">اتصل بنا</h3>
+                  <span className="w-8 h-8 bg-primary-100 rounded-full flex items-center justify-center">
+                    <svg className="w-5 h-5 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                    </svg>
+                  </span>
+                </div>
+                <p className="text-gray-600 mb-2">هاتف: +963984547466</p>
+                <p className="text-gray-600">واتساب: +963984547466</p>
+              </div>
+              <div className="card p-6 hover:shadow-lg transition-all duration-300">
+                <div className="flex items-center justify-between mb-2">
+                  <h3 className="text-lg font-bold text-primary-700">راسلنا</h3>
+                  <span className="w-8 h-8 bg-primary-100 rounded-full flex items-center justify-center">
+                    <svg className="w-5 h-5 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    </svg>
+                  </span>
+                </div>
+                <p className="text-gray-600 mb-2">البريد الإلكتروني: ideaward868@gmail.com</p>
+                <p className="text-gray-600">الموقع: دمشق، سوريا</p>
+              </div>
+              <div className="card p-6 hover:shadow-lg transition-all duration-300">
+                <div className="flex items-center justify-between mb-2">
+                  <h3 className="text-lg font-bold text-primary-700">ساعات العمل</h3>
+                  <span className="w-8 h-8 bg-primary-100 rounded-full flex items-center justify-center">
+                    <svg className="w-5 h-5 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                  </span>
+                </div>
+                <p className="text-gray-600 mb-2">الأحد - الخميس: 9:00 صباحاً - 5:00 مساءً</p>
+                <p className="text-gray-600">الجمعة - السبت: مغلق</p>
+>>>>>>> ceb2da3 (fix icons)
               </div>
             </div>
             <div className="card p-8 shadow-lg">
