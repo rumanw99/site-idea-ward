@@ -97,17 +97,6 @@ export default function About() {
                 <li>أسعى دائمًا لنقل خبرتي للآخرين عبر الدروس، الجلسات الفردية، والاستشارات، لمساعدة الشباب والمهنيين على تطوير مهاراتهم وتحقيق النجاح في سوق العمل.</li>
               </ul>
               <p className="text-secondary-600 arabic-text">أسعى لبناء بيئة عمل محفزة وتحقيق التميز المؤسسي.</p>
-<<<<<<< HEAD
-              <a
-                href="https://www.linkedin.com/in/ward-ruman-718aa622b/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 mt-4 px-4 py-2 rounded-lg border border-primary-200 text-primary-700 hover:bg-primary-50 transition-all duration-200 font-bold text-sm"
-              >
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.268c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm15.5 11.268h-3v-5.604c0-1.337-.025-3.063-1.868-3.063-1.868 0-2.154 1.459-2.154 2.968v5.699h-3v-10h2.881v1.367h.041c.401-.761 1.379-1.563 2.838-1.563 3.036 0 3.6 2.001 3.6 4.599v5.597z"/></svg>
-                حساب لينكدإن
-              </a>
-=======
               <div className="flex justify-center mt-4">
                 <a href="https://www.linkedin.com/in/ward-ruman-718aa622b/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-primary-600 hover:text-primary-800 font-bold text-base bg-primary-50 px-4 py-2 rounded-full shadow transition-all duration-200">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
@@ -116,7 +105,6 @@ export default function About() {
                   لينكدإن
                 </a>
               </div>
->>>>>>> ceb2da3 (fix icons)
             </div>
             {/* عضو 1 */}
             <div className="card animate-fade-in group hover:shadow-xl transition-shadow duration-300 p-6" style={{animationDelay: '0.1s'}}>
