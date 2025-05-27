@@ -248,8 +248,6 @@ h3 {
 @keyframes gradientMove {
   0% { background-position: 0% 50%; }
   100% { background-position: 100% 50%; }
-<<<<<<< HEAD
-=======
 }
 
 @keyframes pulse-arrow {
@@ -260,5 +258,4 @@ h3 {
 
 .animate-pulse-arrow {
   animation: pulse-arrow 1s infinite;
->>>>>>> ceb2da3 (fix icons)
 } 
